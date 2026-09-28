@@ -2,7 +2,7 @@
   color-scheme: dark;
   --orange: #f26522;
   --orange-light: #ff8c42;
-  --bg: #121212;
+  --bg: #f26522;
   --surface: #1e1e1e;
   --surface-raised: #252321;
   --text: #f5f5f5;
@@ -52,6 +52,9 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero-note i { color: #ffc04c; }
 
 .menu-section { padding-block: 82px; }
+.menu-section .section-heading { color: #17110d; }
+.menu-section .section-heading p { color: #402719; }
+.menu-section .eyebrow { color: #28150d; }
 .menu-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
 .menu-card { overflow: hidden; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); transition: transform .22s ease, border-color .22s ease; }
 .menu-card:hover { transform: translateY(-4px); border-color: rgba(242, 101, 34, .55); }
