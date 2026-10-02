@@ -45,8 +45,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .hero::before { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(12, 11, 10, .9) 0%, rgba(12, 11, 10, .72) 46%, rgba(12, 11, 10, .22) 100%), linear-gradient(0deg, rgba(18, 18, 18, .45), transparent 35%); content: ''; }
 .hero-content { position: relative; z-index: 1; max-width: 700px; padding-block: 92px; animation: arrive .8s ease both; }
 .hero .eyebrow { color: #ffad72; }
-.hero h1 { max-width: 690px; margin: 17px 0; font-family: var(--display-font); font-size: clamp(2.15rem, 6.1vw, 4.5rem); font-weight: 400; line-height: 1.2; }
-.hero h1 span { color: var(--orange-light); }
+.hero h1 { max-width: 690px; margin: 17px 0; }
+.hero-slogan { width: min(100%, 440px); height: auto; border-radius: 4px; }
 .hero-copy { max-width: 540px; margin: 0 0 27px; color: #e0ddda; font-size: clamp(.98rem, 2vw, 1.1rem); }
 .hero-order { max-width: 640px; margin-top: 26px; }
 .hero-order h2 { margin: 0 0 3px; font-family: var(--display-font); font-size: clamp(1.2rem, 2.6vw, 1.55rem); font-weight: 400; line-height: 1.35; }
