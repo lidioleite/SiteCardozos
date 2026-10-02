@@ -64,19 +64,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .menu-section .section-heading { color: #17110d; }
 .menu-section .section-heading p { color: #402719; }
 .menu-section .eyebrow { color: #28150d; }
-.menu-grid { display: grid; grid-template-columns: 1fr; gap: 18px; }
-.menu-card { overflow: hidden; border: 1px solid var(--line); border-radius: 7px; background: var(--surface); transition: transform .22s ease, border-color .22s ease; }
-.menu-card:hover { transform: translateY(-4px); border-color: rgba(242, 101, 34, .55); }
-.menu-card img { width: 100%; aspect-ratio: 1.45; object-fit: cover; }
-.menu-card-body { padding: 20px; }
-.menu-card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
-.menu-card h3 { margin: 0; font-family: var(--display-font); font-size: .96rem; font-weight: 400; line-height: 1.5; }
-.menu-card p { min-height: 48px; margin: 9px 0 17px; color: var(--muted); font-size: .83rem; }
-.menu-card-bottom { display: flex; align-items: center; justify-content: space-between; gap: 12px; border-top: 1px solid var(--line); padding-top: 15px; }
-.price { color: var(--orange-light); font-size: .92rem; font-weight: 700; white-space: nowrap; }
-.menu-link { color: var(--text); font-size: .77rem; font-weight: 600; }
-.menu-link i { margin-left: 5px; color: var(--orange); }
-.menu-disclaimer { margin: 17px 0 0; color: #28150d; font-size: .78rem; font-weight: 600; }
+.menu-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; }
+.menu-category { display: flex; min-height: 190px; flex-direction: column; align-items: stretch; justify-content: flex-start; gap: 12px; overflow: hidden; padding: 0 0 15px; border: 1px solid rgba(23, 17, 13, .15); border-radius: 7px; background: rgba(255, 255, 255, .28); text-align: center; transition: transform .2s ease, background .2s ease; }
+.menu-category:hover { transform: translateY(-3px); background: rgba(255, 255, 255, .45); }
+.menu-category-image { display: block; width: 100%; height: auto; aspect-ratio: 1.65; object-fit: cover; background: #f2c697; }
+.menu-category h3 { margin: 0; padding-inline: 10px; color: #17110d; font-family: var(--display-font); font-size: .82rem; font-weight: 400; line-height: 1.45; }
 
 .difference-section { border-block: 1px solid var(--line); background: #181716; padding-block: 70px; }
 .difference-grid { display: grid; grid-template-columns: 1fr; gap: 1px; background: var(--line); }
