@@ -39,24 +39,25 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .button--small { min-height: 40px; padding-inline: 13px; font-size: .76rem; }
 .button--ifood { background: #ea1d2c; }
 .button--ifood:hover { background: #c91422; }
+.button--cardapioweb { background: #b94712; color: #fff; }
+.button--cardapioweb:hover { background: #963a0f; }
 .button--whatsapp { background: var(--whatsapp); color: #102417; }
 .button--whatsapp:hover { background: #48e181; }
 
-.hero { position: relative; display: flex; min-height: 620px; min-height: min(740px, calc(100svh - 72px)); align-items: center; overflow: hidden; background-color: #20140f; background-image: url('../images/pizza-hero.webp'); background-position: center 54%; background-size: cover; background-repeat: no-repeat; }
-.hero::before { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(12, 11, 10, .9) 0%, rgba(12, 11, 10, .72) 46%, rgba(12, 11, 10, .22) 100%), linear-gradient(0deg, rgba(18, 18, 18, .45), transparent 35%); content: ''; }
+.hero { position: relative; display: flex; min-height: 620px; min-height: min(740px, calc(100svh - 72px)); align-items: center; overflow: hidden; background: var(--orange); }
 .hero-content { position: relative; z-index: 1; max-width: 700px; padding-block: 92px; animation: arrive .8s ease both; }
-.hero .eyebrow { color: #ffad72; }
+.hero .eyebrow { color: #28150d; }
 .hero h1 { max-width: 690px; margin: 17px 0; }
 .hero-slogan { width: min(100%, 440px); height: auto; border-radius: 4px; }
-.hero-copy { max-width: 540px; margin: 0 0 27px; color: #e0ddda; font-size: clamp(.98rem, 2vw, 1.1rem); }
+.hero-copy { max-width: 540px; margin: 0 0 27px; color: #28150d; font-size: clamp(.98rem, 2vw, 1.1rem); }
 .hero-order { max-width: 640px; margin-top: 26px; }
-.hero-order h2 { margin: 0 0 3px; font-family: var(--display-font); font-size: clamp(1.2rem, 2.6vw, 1.55rem); font-weight: 400; line-height: 1.35; }
-.hero-order > p { margin: 0 0 13px; color: #e0ddda; font-size: .85rem; }
+.hero-order h2 { margin: 0 0 3px; color: #17110d; font-family: var(--display-font); font-size: clamp(1.2rem, 2.6vw, 1.55rem); font-weight: 400; line-height: 1.35; }
+.hero-order > p { margin: 0 0 13px; color: #402719; font-size: .85rem; }
 .order-actions { display: flex; flex-wrap: wrap; gap: 10px; }
-.hero-hours { display: flex; align-items: flex-start; gap: 12px; margin-top: 20px; color: #e0ddda; }
-.hero-hours > i { padding-top: 3px; color: #ffc04c; }
+.hero-hours { display: flex; align-items: flex-start; gap: 12px; margin-top: 20px; color: #402719; }
+.hero-hours > i { padding-top: 3px; color: #28150d; }
 .hero-hours p { display: flex; flex-direction: column; margin: 0; font-size: .82rem; }
-.hero-hours strong { color: var(--text); }
+.hero-hours strong { color: #17110d; }
 .hero-note { display: flex; align-items: center; gap: 8px; margin-top: 28px; color: #e0ddda; font-size: .78rem; }
 .hero-note i { color: #ffc04c; }
 
